@@ -39,6 +39,6 @@ compare_values <- function(merged_dataset, name_vector = NA) {
   
   if(is.na(name_vector) == F){
     colnames(merged_dataset) <- name_vector 
-    return(merged_dataset)
   }
+  return(merged_dataset)
 }
